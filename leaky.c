@@ -1,5 +1,5 @@
 #include<stdio.h>
-#define min(x,y) ((x) < (y) ? (x) :(y))
+#define min(x,y)((x) < (y) ? (x) : (y))
 #define MAX 25
 int main()
 {
