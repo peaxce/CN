@@ -1,0 +1,17 @@
+The Commands to executed the NS2 file is 
+
+ns <filename>.tcl
+
+
+the grep Commands are
+
+for the grep command use the file name as in the program  that you have written
+
+grep -c "^r" <filename>.tr
+the above grep command is to find the number of recivied.
+
+grep -c "^d" <filename>.tr
+the above grep command is to find the number of dropped.
+
+grep -c "^+" <filename>.tr
+the above grep command is to find the number of enqueue.
